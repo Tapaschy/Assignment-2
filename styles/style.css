@@ -46,7 +46,7 @@ body{
 }
 .header-description{
     text-align:center;
-    width: 865px;
+    width: 52%;
     margin: 0 auto;
 }
 .header-description>h1{
@@ -76,10 +76,7 @@ body{
 /* End of header section */
 
 /* Start main section */
-.main{
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
 /* Start Feature section */
 .feature{
@@ -99,7 +96,7 @@ body{
     border-radius: 5px;
 }
 .feature-description{
-    width: 535px;
+    width: 50%;
     margin-left: 70px;
 }
 .feature-description h2{
@@ -136,7 +133,7 @@ body{
     grid-template-columns:repeat(2,1fr);
 }
 .love-feauture-content{
-    width: 585px;
+    width: 70%;
     margin-top: 50px;
 }
 .love-feauture-title{
@@ -196,7 +193,7 @@ body{
     margin-top: 130px;
 }
 .fact-content{
-    width: 540px;
+    width: 35%;
 }
 .fact-title{
     font-weight: 700;
@@ -244,10 +241,12 @@ body{
     padding-left: 36px;
 }
 
-.fact-item img{
-    padding-top: 40px;
+.fa-solid, .fas {
+    font-weight: 900;
+    padding: 30px;
+    font-size: 40px;
+    color: indianred;
 }
-
 /* end of fact style */
 
 /* start sponsonrs style */
@@ -257,7 +256,7 @@ body{
 
 .sponsors-content{
     text-align: center;
-    width: 540px;
+    width: 35%;
     margin: 0 auto;
 }
 
@@ -326,7 +325,9 @@ body{
 
 @media screen and (max-width:576px) {
 
-    .header-content{
+
+
+.header-content{
     padding-top: 30px;
 }
 .nav{
@@ -442,7 +443,17 @@ body{
 .footer p {
     padding: 40px;
 }
+.main{
+    max-width: 576px;
+    margin: 0 auto;
+}
 
+}
+@media screen and (min-width:577px){
+    .main{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 }
 
 /* end of responsive */
